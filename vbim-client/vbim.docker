@@ -1,0 +1,18 @@
+FROM monroe/base:web
+
+RUN  echo "export HOME=/" \
+		&& export HOME=/
+
+RUN echo "install dstat" \
+        && apt-get update -q \
+        && apt-get install -q -y dstat
+
+RUN echo "install pciutils" \
+        && export DEBIAN_FRONTEND=noninteractive \
+		&& apt-get install -q -y pciutils
+
+RUN apt-get update && apt-get install -y mc
+
+COPY files/* /opt/monroe/
+
+CMD [ "python", "/opt/monroe/vbim.py" ]
