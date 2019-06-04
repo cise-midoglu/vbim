@@ -34,7 +34,7 @@ Since the VBIM client is designed as a Docker container, it can be run on any ma
 
 ### Configuration Parameters
 
-A comprehensive list of all configuration parameters and their default values can be found on the [ITEC DASH page](http://demo.itec.aau.at/monroe/configuration.php).
+A comprehensive list of all configuration parameters and their default values can be found on the [ITEC DASH page](https://dash.itec.aau.at/vbim/configuration.php).
 
 A sample configuration file is provided under the vbim-client directory.
 
@@ -56,7 +56,7 @@ Experiment results can be retrieved from the same interface manually, or by auto
 
 ## Software Certificates and Keys
 
-Bitmovin Player and Bitmovin Analytics keys can be acquired free of charge for a trial period, see [Bitmovin' signup] (https://bitmovin.com/dashboard/signup).
+Bitmovin Player and Bitmovin Analytics keys can be acquired free of charge for a trial period, see [Bitmovin signup](https://bitmovin.com/dashboard/signup).
 
-Parts of the MONROE platform can be used free of charge by researchers and developers, contact the [MONROE Alliance] (https://www.monroe-project.eu/contacts/).
+Parts of the MONROE platform can be used free of charge by researchers and developers, contact the [MONROE Alliance](https://www.monroe-project.eu/contacts/).
 
